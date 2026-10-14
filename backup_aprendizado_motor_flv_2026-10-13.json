@@ -1,0 +1,352 @@
+{
+  "versao": "2.1.0",
+  "sistema": "Motor de Pedidos FLV Big Mais",
+  "exportadoEm": "2026-10-14T00:54:05.772Z",
+  "dataLegivel": "13/10/2026, 21:54:05",
+  "estatisticas": {
+    "totalLojas": 6,
+    "totalAmostrasLojas": 306,
+    "totalSkusComFeedback": 30
+  },
+  "perfisLojasAprendizado": {
+    "01 PER": {
+      "amostras": 68,
+      "arquetipo": "Bairro Tradicional & Família",
+      "desc": "Padrão de reposição equilibrado",
+      "fatorCalibracao": 0.85,
+      "id": "01 PER",
+      "impulsoFDS": 0.95,
+      "impulsoQuarta": 0.96,
+      "nome": "Jardim Pérola",
+      "pesosDias": [
+        1,
+        0.89,
+        1.1,
+        0.97,
+        1.17,
+        0.79,
+        1.08
+      ],
+      "ultimaAtualizacao": "13/10/2026"
+    },
+    "02 TRE": {
+      "amostras": 44,
+      "arquetipo": "Bairro Tradicional & Família",
+      "desc": "Padrão de reposição equilibrado",
+      "fatorCalibracao": 1.02,
+      "id": "02 TRE",
+      "impulsoFDS": 0.93,
+      "impulsoQuarta": 1,
+      "nome": "Treze de Maio",
+      "pesosDias": [
+        1.21,
+        0.82,
+        1.15,
+        1,
+        0.98,
+        0.85,
+        1.01
+      ],
+      "ultimaAtualizacao": "13/10/2026"
+    },
+    "04 LAG": {
+      "amostras": 79,
+      "arquetipo": "Bairro Nobre & Especiais",
+      "desc": "Alta demanda de hidropônicos, folhas nobres e giro contínuo",
+      "fatorCalibracao": 0.85,
+      "id": "04 LAG",
+      "impulsoFDS": 0.77,
+      "impulsoQuarta": 0.68,
+      "nome": "Lagoa Santa",
+      "pesosDias": [
+        0.79,
+        0.56,
+        0.76,
+        0.68,
+        0.8,
+        0.7,
+        0.82
+      ],
+      "ultimaAtualizacao": "13/10/2026"
+    },
+    "05 ALT": {
+      "amostras": 33,
+      "arquetipo": "Fluxo Diário / Comercial",
+      "desc": "Consumo linear ao longo dos dias úteis",
+      "fatorCalibracao": 0.87,
+      "id": "05 ALT",
+      "impulsoFDS": 0.99,
+      "impulsoQuarta": 0.87,
+      "nome": "Altinópolis",
+      "pesosDias": [
+        1.11,
+        1.11,
+        1.08,
+        0.87,
+        0.86,
+        0.94,
+        1.04
+      ],
+      "ultimaAtualizacao": "13/10/2026"
+    },
+    "08 ISA": {
+      "amostras": 48,
+      "arquetipo": "Giro Rápido & Preço",
+      "desc": "Compras fracionadas com alta sensibilidade a ofertas",
+      "fatorCalibracao": 0.96,
+      "id": "08 ISA",
+      "impulsoFDS": 0.85,
+      "impulsoQuarta": 1.1,
+      "nome": "Vila Isa",
+      "pesosDias": [
+        1.23,
+        0.94,
+        1.09,
+        1.1,
+        0.95,
+        0.77,
+        0.93
+      ],
+      "ultimaAtualizacao": "13/10/2026"
+    },
+    "09 SPD": {
+      "amostras": 34,
+      "arquetipo": "Bairro Tradicional & Família",
+      "desc": "Padrão de reposição equilibrado",
+      "fatorCalibracao": 1.11,
+      "id": "09 SPD",
+      "impulsoFDS": 0.69,
+      "impulsoQuarta": 0.46,
+      "nome": "São Paulo",
+      "pesosDias": [
+        0.63,
+        0.38,
+        0.48,
+        0.46,
+        0.5,
+        0.59,
+        0.78
+      ],
+      "ultimaAtualizacao": "13/10/2026"
+    }
+  },
+  "historicoPredicoes": {
+    "9760": {
+      "amostras": 25,
+      "atualizadoEm": "12/10/2026",
+      "bias": -0.05,
+      "ema": 0.089,
+      "ultimaVendaMedia": 3.2857142857142856
+    },
+    "9764": {
+      "amostras": 12,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.131,
+      "ema": 0.197,
+      "ultimaVendaMedia": 3.5714285714285716
+    },
+    "9781": {
+      "amostras": 22,
+      "atualizadoEm": "13/10/2026",
+      "ultimaVendaMedia": 4.142857142857143
+    },
+    "9809": {
+      "amostras": 1,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.05,
+      "ultimaVendaMedia": 9.714285714285714
+    },
+    "9812": {
+      "amostras": 36,
+      "atualizadoEm": "12/10/2026",
+      "ultimaVendaMedia": 18.428571428571427
+    },
+    "9823": {
+      "amostras": 1,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.05,
+      "ultimaVendaMedia": 4.571428571428571
+    },
+    "9825": {
+      "amostras": 29,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.123,
+      "ema": 0.286,
+      "ultimaVendaMedia": 43.57142857142857
+    },
+    "9832": {
+      "amostras": 7,
+      "atualizadoEm": "13/10/2026",
+      "bias": 1.234,
+      "ema": 1.495,
+      "ultimaVendaMedia": 9
+    },
+    "9884": {
+      "amostras": 8,
+      "atualizadoEm": "13/10/2026",
+      "ultimaVendaMedia": 19.714285714285715
+    },
+    "9904": {
+      "amostras": 4,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.025,
+      "ema": 0.042,
+      "ultimaVendaMedia": 5.571428571428571
+    },
+    "9971": {
+      "amostras": 2,
+      "atualizadoEm": "13/10/2026",
+      "bias": 0,
+      "ema": 0.035,
+      "ultimaVendaMedia": 1.4285714285714286
+    },
+    "10088": {
+      "amostras": 2,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.035,
+      "ultimaVendaMedia": 9.857142857142858
+    },
+    "10517": {
+      "amostras": 4,
+      "atualizadoEm": "13/10/2026",
+      "bias": 0.032,
+      "ema": 0.05,
+      "ultimaVendaMedia": 7.142857142857143
+    },
+    "10560": {
+      "amostras": 2,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.035,
+      "ultimaVendaMedia": 43.57142857142857
+    },
+    "10570": {
+      "amostras": 14,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.006,
+      "ema": 0.035,
+      "ultimaVendaMedia": 4.285714285714286
+    },
+    "10803": {
+      "amostras": 38,
+      "atualizadoEm": "12/10/2026",
+      "bias": -0.048,
+      "ema": 0.049,
+      "ultimaVendaMedia": 8.428571428571429
+    },
+    "10825": {
+      "amostras": 11,
+      "atualizadoEm": "13/10/2026",
+      "bias": 0.188,
+      "ema": 0.417,
+      "ultimaVendaMedia": 33.857142857142854
+    },
+    "10827": {
+      "amostras": 6,
+      "atualizadoEm": "13/10/2026",
+      "bias": 0,
+      "ema": 0.008,
+      "ultimaVendaMedia": 1.5714285714285714
+    },
+    "10871": {
+      "amostras": 26,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.121,
+      "ema": 0.186,
+      "ultimaVendaMedia": 53.285714285714285
+    },
+    "10956": {
+      "amostras": 16,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0.015,
+      "ema": 0.096,
+      "ultimaVendaMedia": 7.857142857142857
+    },
+    "11018": {
+      "amostras": 8,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.227,
+      "ema": 0.306,
+      "ultimaVendaMedia": 23.428571428571427
+    },
+    "11080": {
+      "amostras": 24,
+      "atualizadoEm": "12/10/2026",
+      "ultimaVendaMedia": 2.857142857142857
+    },
+    "11084": {
+      "amostras": 2,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.035,
+      "ultimaVendaMedia": 4.428571428571429
+    },
+    "11190": {
+      "amostras": 8,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.034,
+      "ema": 0.449,
+      "ultimaVendaMedia": 16.714285714285715
+    },
+    "11518": {
+      "amostras": 2,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.035,
+      "ultimaVendaMedia": 1.5714285714285714
+    },
+    "11601": {
+      "amostras": 3,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.025,
+      "ultimaVendaMedia": 11.571428571428571
+    },
+    "11666": {
+      "amostras": 2,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0,
+      "ema": 0.035,
+      "ultimaVendaMedia": 1.1428571428571428
+    },
+    "11765": {
+      "amostras": 3,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.112,
+      "ema": 0.137,
+      "ultimaVendaMedia": 2.142857142857143
+    },
+    "16204": {
+      "amostras": 14,
+      "atualizadoEm": "12/10/2026",
+      "bias": 0.024,
+      "ema": 0.33,
+      "ultimaVendaMedia": 3.7142857142857144
+    },
+    "41003": {
+      "amostras": 3,
+      "atualizadoEm": "13/10/2026",
+      "bias": -0.112,
+      "ema": 0.137,
+      "ultimaVendaMedia": 1.4285714285714286
+    }
+  },
+  "configuracoesMotor": {
+    "modeloCiclos": "7ciclos",
+    "usarPerfilLoja": true,
+    "modoCurvaABC": "auto",
+    "usarSazonalidadeFina": true,
+    "usarAlertaQueima": true,
+    "usarFeedbackLoop": true,
+    "usarTendencia": true,
+    "modoFaseMes": "auto",
+    "modoQuebraTecnica": "auto",
+    "usarFiltroRuptura": true,
+    "tipoArredondamento": "caixa",
+    "margemSeguranca": 15,
+    "modoAbatimentoEstoque": "hoje"
+  }
+}
