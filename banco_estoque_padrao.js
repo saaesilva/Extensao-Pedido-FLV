@@ -1,0 +1,355 @@
+// Banco de Dados Padrão Integrado Big Mais - Exportado em 2026-10-04
+// Contém 25 produtos e estoques por filial
+const DATA_BANCO_ESTOQUE_PADRAO = "2026-10-04";
+const BANCO_ESTOQUE_PADRAO = {
+  "9658": {
+    "codigo": "9658",
+    "descricao": "ACELGA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": 7,
+      "02 TRE": 23,
+      "04 LAG": -2,
+      "05 ALT": 0,
+      "08 ISA": -3,
+      "09 SPD": -5,
+      "10 CNT": 0
+    }
+  },
+  "9764": {
+    "codigo": "9764",
+    "descricao": "AGRIAO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -6,
+      "02 TRE": 5,
+      "04 LAG": -4,
+      "05 ALT": 11,
+      "08 ISA": -7,
+      "09 SPD": -14,
+      "10 CNT": 0
+    }
+  },
+  "9832": {
+    "codigo": "9832",
+    "descricao": "ALECRIM UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": 8,
+      "02 TRE": -9,
+      "04 LAG": -3,
+      "05 ALT": 34,
+      "08 ISA": -7,
+      "09 SPD": -3,
+      "10 CNT": 0
+    }
+  },
+  "9809": {
+    "codigo": "9809",
+    "descricao": "ALFACE AMER UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -18,
+      "02 TRE": -9,
+      "04 LAG": 23,
+      "05 ALT": 13,
+      "08 ISA": 13,
+      "09 SPD": -47,
+      "10 CNT": 0
+    }
+  },
+  "9823": {
+    "codigo": "9823",
+    "descricao": "ALFACE ROXA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -8,
+      "02 TRE": -16,
+      "04 LAG": -15,
+      "05 ALT": 23,
+      "08 ISA": 9,
+      "09 SPD": -28,
+      "10 CNT": 0
+    }
+  },
+  "9825": {
+    "codigo": "9825",
+    "descricao": "ALFACE UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -219,
+      "02 TRE": -353,
+      "04 LAG": -445,
+      "05 ALT": -122,
+      "08 ISA": -159,
+      "09 SPD": -240,
+      "10 CNT": 0
+    }
+  },
+  "9884": {
+    "codigo": "9884",
+    "descricao": "ALHO PORO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -28,
+      "02 TRE": -32,
+      "04 LAG": -55,
+      "05 ALT": 17,
+      "08 ISA": -61,
+      "09 SPD": -35,
+      "10 CNT": 0
+    }
+  },
+  "41003": {
+    "codigo": "41003",
+    "descricao": "ALMEIRAO ROXO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -3,
+      "02 TRE": 2,
+      "04 LAG": -3,
+      "05 ALT": 0,
+      "08 ISA": 3,
+      "09 SPD": -1,
+      "10 CNT": 0
+    }
+  },
+  "9904": {
+    "codigo": "9904",
+    "descricao": "ALMEIRAO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -6,
+      "02 TRE": 4,
+      "04 LAG": -7,
+      "05 ALT": -1,
+      "08 ISA": 25,
+      "09 SPD": -11,
+      "10 CNT": 0
+    }
+  },
+  "9971": {
+    "codigo": "9971",
+    "descricao": "AZEDINHA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": 0,
+      "02 TRE": 0,
+      "04 LAG": 9,
+      "05 ALT": 0,
+      "08 ISA": 0,
+      "09 SPD": 0,
+      "10 CNT": 0
+    }
+  },
+  "10560": {
+    "codigo": "10560",
+    "descricao": "BROCOLIS JAPONES UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -179,
+      "02 TRE": -5,
+      "04 LAG": -55,
+      "05 ALT": -4,
+      "08 ISA": -38,
+      "09 SPD": -129,
+      "10 CNT": 0
+    }
+  },
+  "10570": {
+    "codigo": "10570",
+    "descricao": "BROCOLIS UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -6,
+      "02 TRE": -6,
+      "04 LAG": -33,
+      "05 ALT": -3,
+      "08 ISA": -14,
+      "09 SPD": -14,
+      "10 CNT": 0
+    }
+  },
+  "10871": {
+    "codigo": "10871",
+    "descricao": "CEBOLINHA VDE UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -275,
+      "02 TRE": -301,
+      "04 LAG": -363,
+      "05 ALT": -138,
+      "08 ISA": -220,
+      "09 SPD": -209,
+      "10 CNT": 0
+    }
+  },
+  "11018": {
+    "codigo": "11018",
+    "descricao": "COENTRO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -145,
+      "02 TRE": -189,
+      "04 LAG": -152,
+      "05 ALT": -20,
+      "08 ISA": -75,
+      "09 SPD": -117,
+      "10 CNT": 0
+    }
+  },
+  "11190": {
+    "codigo": "11190",
+    "descricao": "COUVE UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -69,
+      "02 TRE": -65,
+      "04 LAG": -145,
+      "05 ALT": 66,
+      "08 ISA": 20,
+      "09 SPD": -98,
+      "10 CNT": 0
+    }
+  },
+  "11765": {
+    "codigo": "11765",
+    "descricao": "ESPINAFRE UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -5,
+      "02 TRE": -4,
+      "04 LAG": -26,
+      "05 ALT": 17,
+      "08 ISA": 26,
+      "09 SPD": -8,
+      "10 CNT": 0
+    }
+  },
+  "10088": {
+    "codigo": "10088",
+    "descricao": "HORTELA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -14,
+      "02 TRE": -42,
+      "04 LAG": -15,
+      "05 ALT": 3,
+      "08 ISA": -23,
+      "09 SPD": -35,
+      "10 CNT": 0
+    }
+  },
+  "9781": {
+    "codigo": "9781",
+    "descricao": "MANJERICAO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -4,
+      "02 TRE": -16,
+      "04 LAG": -17,
+      "05 ALT": 5,
+      "08 ISA": 10,
+      "09 SPD": -37,
+      "10 CNT": 0
+    }
+  },
+  "10517": {
+    "codigo": "10517",
+    "descricao": "MOSTARDA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -10,
+      "02 TRE": -19,
+      "04 LAG": -11,
+      "05 ALT": -5,
+      "08 ISA": 13,
+      "09 SPD": -12,
+      "10 CNT": 0
+    }
+  },
+  "11518": {
+    "codigo": "11518",
+    "descricao": "RABANETE MACO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": 1,
+      "02 TRE": -8,
+      "04 LAG": -15,
+      "05 ALT": 1,
+      "08 ISA": -3,
+      "09 SPD": -18,
+      "10 CNT": 0
+    }
+  },
+  "11084": {
+    "codigo": "11084",
+    "descricao": "RUCULA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -13,
+      "02 TRE": -10,
+      "04 LAG": -40,
+      "05 ALT": 22,
+      "08 ISA": 7,
+      "09 SPD": -31,
+      "10 CNT": 0
+    }
+  },
+  "10825": {
+    "codigo": "10825",
+    "descricao": "SALSA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -104,
+      "02 TRE": -87,
+      "04 LAG": -194,
+      "05 ALT": -16,
+      "08 ISA": -102,
+      "09 SPD": -208,
+      "10 CNT": 0
+    }
+  },
+  "10827": {
+    "codigo": "10827",
+    "descricao": "SALSAO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": -3,
+      "02 TRE": 1,
+      "04 LAG": -2,
+      "05 ALT": 3,
+      "08 ISA": 5,
+      "09 SPD": -1,
+      "10 CNT": 0
+    }
+  },
+  "11601": {
+    "codigo": "11601",
+    "descricao": "TAIOBA UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": 7,
+      "02 TRE": 26,
+      "04 LAG": 5,
+      "05 ALT": 1,
+      "08 ISA": 27,
+      "09 SPD": -6,
+      "10 CNT": 0
+    }
+  },
+  "11666": {
+    "codigo": "11666",
+    "descricao": "TOMILHO UN",
+    "data_coleta": "2026-10-04",
+    "lojas": {
+      "01 PER": 3,
+      "02 TRE": 9,
+      "04 LAG": 3,
+      "05 ALT": 0,
+      "08 ISA": 12,
+      "09 SPD": -12,
+      "10 CNT": 0
+    }
+  }
+};
