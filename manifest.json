@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Motor de Pedidos FLV",
+  "version": "1.4.1",
+  "description": "Motor inteligente de apoio à tomada de decisão para pedidos FLV com análise climática, tendência, sazonalidade e integração de estoque Big Mais.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://api.open-meteo.com/*",
+    "https://raw.githubusercontent.com/*",
+    "https://api.github.com/*",
+    "*://*/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sql-wasm.wasm",
+        "sql-wasm.js",
+        "banco_estoque_padrao.json",
+        "banco_estoque_padrao.js"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  }
+}
